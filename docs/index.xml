@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>baltsec</title>
-    <link>baltic-security-foundation.github.io/baltsec_test/</link>
+    <link>https://baltic-security-foundation.github.io/baltsec_test/</link>
     <description>Recent content on baltsec</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="baltic-security-foundation.github.io/baltsec_test/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://baltic-security-foundation.github.io/baltsec_test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About us</title>
-      <link>baltic-security-foundation.github.io/baltsec_test/about/</link>
+      <link>https://baltic-security-foundation.github.io/baltsec_test/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>baltic-security-foundation.github.io/baltsec_test/about/</guid>
+      <guid>https://baltic-security-foundation.github.io/baltsec_test/about/</guid>
       <description>baltsec is an initiative headed by the Baltic Security Foundation to create a community of activists and experts (both civilian and military) working togheter to provide security and defense insights for the Baltic States.</description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>baltic-security-foundation.github.io/baltsec_test/blog/</link>
+      <link>https://baltic-security-foundation.github.io/baltsec_test/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>baltic-security-foundation.github.io/baltsec_test/blog/</guid>
+      <guid>https://baltic-security-foundation.github.io/baltsec_test/blog/</guid>
       <description></description>
     </item>
     
