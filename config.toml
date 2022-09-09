@@ -1,3 +1,4 @@
 baseURL = "baltic-security-foundation.github.io/baltsec_test"
 languageCode = "en-us"
 title = "baltsec"
+publishDir = "docs"
