@@ -47,12 +47,16 @@
                         <ul>
                             {{ range .Pages.ByDate }}
                                 {{if .Title }}
-                                    {{if .Content}}
-                                        <li>
-                                            <a href="#{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">{{ .Title }}</a>
-                                        </li>
+                                    {{if .Description}}
+                                        <li><a href="{{ .Description }}">{{ .Title }}</a></li>
                                     {{ else }}
-                                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                        {{if .Content}}
+                                            <li>
+                                                <a href="#{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">{{ .Title }}</a>
+                                            </li>
+                                        {{ else }}
+                                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                        {{ end }}
                                     {{ end }}
                                 {{ end }}
                             {{ end }}
@@ -62,7 +66,6 @@
 
             <!-- Main -->
                 <div id="main">
-
                     {{ range .Pages }}
                         {{if .Title }}
                             {{if .Content }}

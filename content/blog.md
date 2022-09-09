@@ -1,6 +1,6 @@
 ---
 title: blog
-link: https://balticsecurity.eu/
+description: https://balticsecurity.eu/
 ---
 
 
